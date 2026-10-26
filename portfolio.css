@@ -127,3 +127,13 @@ body {
               font-weight: 600;
                color: #fff;
             }
+            #image {
+              width: 200px;
+              height: 200px;
+              margin-left: 800px;
+              margin-top: -250px;
+              border: none;
+              border-radius: 100px;
+
+
+            }
