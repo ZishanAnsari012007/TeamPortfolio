@@ -175,3 +175,20 @@ body {
             margin-top: -30px;
             margin-left:1400px;
            }
+
+           .buttonus{
+          margin-left: 1300px;
+          margin-top: 30px;
+          padding: 10px 20px;
+          border-radius: 100px;
+          background-color: blue;
+          color: white;
+           border: none;
+           font-size: larger;
+           font-weight:500;
+           
+
+    
+           
+
+           }
