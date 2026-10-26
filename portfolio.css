@@ -106,3 +106,24 @@ body {
 
 
             }
+            #button1{
+
+             
+             padding: 10px 10px 10px 10px;
+             margin-left: 70px;
+             border: none;
+             border-radius: 20PX;
+             background-color: aquamarine;
+             font-weight: 600;
+            }
+
+            #button2{
+
+              margin-left: 10px;
+             padding: 10px 10px 10px 10px;
+              border: nonE;
+              border-radius: 20PX;
+              background-color: black;
+              font-weight: 600;
+               color: #fff;
+            }
