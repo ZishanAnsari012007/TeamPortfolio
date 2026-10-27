@@ -16,7 +16,7 @@ html, body
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: rgb(250, 249, 249);
+    background-color: white;
 }
 
 .leftside_portion{
@@ -30,11 +30,11 @@ html, body
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 60px;
+    gap: 90px;
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
-    background-color: rgb(250, 248, 248);
+    background-color: white;
     border-radius: 150px;
 }
 .buttomside_area {
@@ -43,6 +43,32 @@ html, body
     align-items: center;
     padding: 20px;
     margin-top: auto;
+}
+
+.skills_link{
+    display: flex;
+    gap: 30px;  
+}
+
+.intro_name{
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.left_side_button button {
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button{
+    gap: 20px;
 }
 
 
