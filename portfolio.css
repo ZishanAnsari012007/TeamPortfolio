@@ -202,6 +202,12 @@ body {
            font-weight:500;
            
            }
+           .buttonus:hover{
+             background-color: #019938;
+            color: rgb(203, 90, 90);
+            font-style: oblique;
+
+           }
            .github{
              width: 30px;
             height: 30px;
