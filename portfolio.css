@@ -3,6 +3,8 @@ body {
             background-color: #226563;
              margin: 0px;
              padding: 0px;
+             width: 1520px;
+             height: 670px;
 
           }
            #h1{
@@ -116,6 +118,11 @@ body {
              background-color: aquamarine;
              font-weight: 600;
             }
+            #button1:hover{
+             background-color: rgb(211, 60, 227);
+             color: black;
+              font-weight: 900;
+            }
 
             #button2{
 
@@ -127,6 +134,13 @@ body {
               font-weight: 600;
                color: #fff;
             }
+            #button2:hover{
+          
+             background-color: rgb(247, 81, 78);
+             color: rgb(2, 0, 14);
+              font-weight: 900;
+            }
+
             #image {
               width: 200px;
               height: 200px;
@@ -187,8 +201,14 @@ body {
            font-size: larger;
            font-weight:500;
            
-
-    
-           
+           }
+           .github{
+             width: 30px;
+            height: 30px;
+            border: none;
+            border-radius: 30px;
+            margin-right: 1100px;
+            margin-left:30px ;
+            margin-top: -40px;
 
            }
