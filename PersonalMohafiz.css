@@ -1,0 +1,32 @@
+body {
+    margin: 12px;
+    background-color: white;
+}
+
+.BackButton {
+    margin-bottom: 30px;
+    background-color: #4CAF50;
+    padding : 10px ;
+}
+
+
+.TopLinks {
+    margin-bottom: 20px;
+    background-color: #f80000;
+    padding : 10px ;
+    font-size: 15px;
+    font-weight: 550;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.MyName {
+    
+    font-size: 35px;
+    font-weight: 550;
+    font-style: normal;
+}
