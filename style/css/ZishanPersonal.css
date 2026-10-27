@@ -30,7 +30,7 @@ html, body
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 90px;
+    gap: 130px;
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
@@ -81,5 +81,12 @@ button{
 }
 
 .buttom_image i {
+    cursor: pointer;
+}
+.Main_page_button{
+background-color: black;
+    color: white;
+    padding: 12px 24px;
+    border: none;
     cursor: pointer;
 }
