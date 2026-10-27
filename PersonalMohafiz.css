@@ -5,7 +5,18 @@ body {
 
 .BackButton {
     margin-bottom: 30px;
-    padding : 10px ;
+    
+    background-color: #1ca500;
+    color: white;
+    border: none;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    align-items: center;
+
+    
 }
 
 
@@ -59,8 +70,64 @@ p {
 
 
 .ResumeTalkButton {
-    margin-top: 15px;
-    padding : 0px ;
+    margin-left: 128px;
+    margin-top: 13px;
     display: flex;
+    justify-content: space-between;
+    width: 270px;
+    height: 40px;
+    gap: 10px;
+
+
 }
 
+
+
+
+.ViewResumeButton {
+    background-color: #000000;
+    color: white;
+    border: none;
+    font-size: 13px;
+    font-weight: 550;
+    border-radius: 20px;
+    width: 50%;
+}
+
+.TalkButton {
+    background-color: #e3f2f4;
+    color: rgb(9, 9, 9);
+    border: none;
+    font-size: 13px;
+    font-weight: 550;
+    border-radius: 20px;
+    width: 50%;
+}
+
+
+.Footer {
+    margin-top: 47px;
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    align-items: center;
+    margin-left: 128px;
+    margin-right: 15px;
+
+}
+
+
+.FooterText {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #666666;
+}
+
+
+
+.SocialMediaIcon {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
