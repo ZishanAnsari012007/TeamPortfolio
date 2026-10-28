@@ -47,24 +47,48 @@ html, body
 
 .skills_link{
     display: flex;
-    gap: 30px;  
+    gap: 20px;  
+}
+.top_header {
+    padding: 20px 30px;
 }
 
+/* .Main_page_button {
+    background-color: #16a34a;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+} */
+
+/* .Main_page_button:hover {
+    background-color: #15803d;
+    transform: translateX(-3px);
+}
+
+.Main_page_button:active {
+    transform: scale(0.96);
+} */
+
+
 .intro_name{
-    font-size: 40px;
+    font-size: 60px;
 }
 a{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
 }
 
-.left_side_button button {
-    background-color: black;
-    color: white;
-    padding: 12px 24px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
+h4{
+    font-size: 18px;
+}
+.details_rightside img{
+      height: 400px;
+      width: 400px;
 }
 
 button{
@@ -84,9 +108,34 @@ button{
     cursor: pointer;
 }
 .Main_page_button{
-background-color: black;
+    background-color: #16a34a;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.lets_talk_button{
+    background-color: white;
+    color: black;
+    padding: 12px 24px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+
+.view_button {
+    background-color: rgb(6, 6, 6);
     color: white;
     padding: 12px 24px;
     border: none;
+    border-radius: 8px;
     cursor: pointer;
+    font-weight: 600;
 }
