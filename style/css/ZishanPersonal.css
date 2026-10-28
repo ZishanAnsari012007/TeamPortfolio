@@ -30,9 +30,9 @@ html, body
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 130px;
+    gap: 120px;
     width: 100%;
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
     background-color: white;
     border-radius: 150px;
@@ -76,7 +76,7 @@ html, body
 
 
 .intro_name{
-    font-size: 60px;
+    font-size: 70px;
 }
 a{
     text-decoration: none;
@@ -84,11 +84,13 @@ a{
 }
 
 h4{
-    font-size: 18px;
+    font-size: 20px;
 }
 .details_rightside img{
-      height: 400px;
-      width: 400px;
+      height: 420px;
+      width: 410px;
+      border-radius: 200px;
+      margin-top: 20px;
 }
 
 button{
@@ -127,6 +129,8 @@ button{
     cursor: pointer;
     font-weight: 600;
     margin-left: 10px;
+    width: 180px;
+    height: 55px;
 }
 
 
@@ -135,7 +139,10 @@ button{
     color: white;
     padding: 12px 24px;
     border: none;
-    border-radius: 8px;
+    border-radius: 25px;
     cursor: pointer;
     font-weight: 600;
+    font-size: 15px;
+    width: 180px;
+    height: 55px;
 }
