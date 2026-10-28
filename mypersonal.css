@@ -1,0 +1,67 @@
+.backbutton {
+    background-color: rgb(165, 162, 162);
+    margin: 10px 0px 30px 30px;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: medium;
+    font-weight: 600;
+}
+.navlink{
+    margin: 20px 0px 15px 60px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+h1 {
+    font-family: sans-serif;
+    font-size: 60;
+    margin: 0px 0px 0px 50px;
+}
+.info p{
+    color: rgb(110, 109, 109);
+    font-size: 22;
+    margin: 15px 0px 10px 50px;
+}
+.image {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    object-position: 75% center;
+    margin: -2% 12%;
+    border-radius: 50%;
+}
+.checkbutton{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 55px;
+}
+.resumebutton{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    margin: -50px 0px 10px 0px;
+    padding: 15px 25px 15px 25px;
+    border: none;
+    border-radius: 30px;
+    font-size: medium;
+    cursor: pointer;
+
+}
+.talkbutton{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    margin: -50px 0px 10px 0px;
+    padding: 15px 25px 15px 25px;
+    border-radius: 30px;
+    border: 2px solid rgba(238, 238, 238, 0.966);
+    font-size: medium;
+    cursor: pointer;
+}
+.talkbutton:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+    cursor: pointer;
+}
