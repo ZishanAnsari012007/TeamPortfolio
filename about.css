@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(32, 203, 106);
+}
+.main{
+    margin: 0% 5% 0% 5%;
+}
+.teamapp{
+    color: aliceblue;
+}
+.teamappbutton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttons{
+    color: aliceblue;
+    padding: 0px 20px 0px 0px;
+}
+.button1{
+    margin-left: 20px;
+}
+.header{
+    color: aliceblue;
+}
+.logo{
+    color: aliceblue;
+}
+.paragraph{
+}
