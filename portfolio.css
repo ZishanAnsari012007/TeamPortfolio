@@ -1,236 +1,129 @@
+
 body {
+    padding: 0;
+    margin: 0;
+}
+
+.heading {
+    background-color: white;
+    width: 100%;
+    min-height: 740px;
+    overflow: hidden;
+}
+.backbutton{
+ margin-left: 30px;
+ margin-top: 20px;
+ padding: 10px 20px 10px 20px;
+ border-radius: 20px;
+ font-size: larger;
+ font-weight: 400;
+ background-color: green;
+ color: black;
+
+}
+
+.heading1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 60px;
+    margin-top: 20px;
+    color: rgb(44, 44, 191);
+}
+
+.heading2 {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-weight: 900;
+    font-size: x-large;
+    margin-top: 10px;
+    margin-left: 60px;
+   
+}
+
+.paragraph {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+#button1 {
+    padding: 10px;
+    margin-left: 70px;
+    border: none;
+    border-radius: 20px;
+    background-color: aquamarine;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#button1:hover {
+    background-color: rgb(211, 60, 227);
+    color: black;
+    font-weight: 900;
+}
+
+#button2 {
+    margin-left: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+#button2:hover {
+    background-color: rgb(247, 81, 78);
+    color: rgb(2, 0, 14);
+    font-weight: 900;
+}
+
+#image {
+    width: 200px;
+    height: 200px;
+    margin-left: 60%;
+    margin-top: -220px;
+    border: none;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.facebook,
+.twitter,
+.in,
+.insta {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+   
+}
+
+.facebook {
+    margin-left: 88%;
+    margin-top: 40px;
+    
+}
+
+.twitter {
+    margin-left: 15px;
+}
+
+.in {
+    margin-left: 15px;
+}
+
+.insta {
+    margin-left: 15px;
+}
+
+.year {
+    display: flex;
+    margin-left: 20px;
+    margin-top: -50px;
+}
+
+
            
-            background-color: #226563;
-             margin: 0px;
-             padding: 0px;
-             width: 1520px;
-             height: 670px;
-
-          }
-           #h1{
-             
-             display: flex;
-             justify-content: center;
-             font-size: slarge;
-             font-size: 500%;
-             margin-top: -5px;
-             
-                
-
-;
-             }
-            #h2{
-             
-              text-align: center;
-              font-size: x-large;
-              color: white;
-              margin: -30px;
-             }
-             #div1{
-             background-color: white;
-
-            }
-
-            .menu{
-             display: flex;
-             justify-content: space-around;
-             align-items: center;
-             height: 40px;
-             background-color: white;
-              width: 100%;
-               font-size: 14px;
-               margin-top: 50px;
-                box-sizing: border-box;
-                margin-left: 0px;
-                 margin-right: 0px;
-                  border-radius: 10px;
-                    
-            }
-            .menu:hover{
-
-                color: red;
-
-
-            }
-            .menu a{
-             font-weight: 700;
-             font-size: larger;
-             
-
-            }
-            .menu a:hover{
-
-                color: green;
-                 
-
-            }
-            .talk button{
-
-               color: #fff;
-                background-color: black; 
-                 padding: 8px 20px 8px 20px;
-                  border: none;
-                   margin: 0px 0px 10px 0px;
-                    font-weight: 600;
-                     border-radius: 300px;
-                     margin-top: 10px;
-               
-            }
-            .talk button:hover{
-               background-color: #1e0f71;
-                color: red;
-
-            }
-
-            .heading{
-              background-color: rgb(160, 222, 247);
-              width: 1520px;
-              height: 800px;
-
-            }
-            .heading1{
-
-                  
-                    
-                    display: flex;
-                    justify-content: center;
-                     align-items: center;
-                    color:black;
-                    font-weight: 900;
-                    font-size: x-large;
-                    padding: 200px;
-                    margin-right: 600px;
-            }
-            .paragraph{
-
-            margin-top: -200PX;
-            margin-left: 200PX;
-
-
-            }
-            #button1{
-
-             
-             padding: 10px 10px 10px 10px;
-             margin-left: 70px;
-             border: none;
-             border-radius: 20PX;
-             background-color: aquamarine;
-             font-weight: 600;
-            }
-            #button1:hover{
-             background-color: rgb(211, 60, 227);
-             color: black;
-              font-weight: 900;
-            }
-
-            #button2{
-
-              margin-left: 10px;
-             padding: 10px 10px 10px 10px;
-              border: nonE;
-              border-radius: 20PX;
-              background-color: black;
-              font-weight: 600;
-               color: #fff;
-            }
-            #button2:hover{
-          
-             background-color: rgb(247, 81, 78);
-             color: rgb(2, 0, 14);
-              font-weight: 900;
-            }
-
-            #image {
-              width: 200px;
-              height: 200px;
-              margin-left: 800px;
-              margin-top: -250px;
-              border: none;
-              border-radius: 100px;
-
-
-            }
-            .facebook{
-
-             width: 30px;
-             height: 30px;
-            border: none;
-            border-radius: 30px;
-            margin-top: 100px;
-            margin-left:1250px;
-
-            }
-            .twiter{
-
-            width: 30px;
-            height: 30px;
-            border: none;
-            border-radius: 30px;
-           margin-top: -30px;
-            margin-left:1300px;
-
-
-            }
-            .in{
-
-            width: 30px;
-            height: 30px;
-            border: none;
-            border-radius: 30px;
-            margin-top: -30px;
-            margin-left:1350px;
-            }
-            .insta{
-            width: 30px;
-            height: 30px;
-            border: none;
-            border-radius: 30px;
-            margin-top: -30px;
-            margin-left:1400px;
-           }
-
-           .buttonus{
-          margin-left: 1300px;
-          margin-top: 30px;
-          padding: 10px 20px;
-          border-radius: 100px;
-          background-color: blue;
-          color: white;
-           border: none;
-           font-size: larger;
-           font-weight:500;
-           
-           }
-           .buttonus:hover{
-             background-color: #019938;
-            color: rgb(203, 90, 90);
-            font-style: oblique;
-
-           }
-           .github{
-             width: 30px;
-            height: 30px;
-            border: none;
-            border-radius: 30px;
-            margin-right: 1100px;
-            margin-left:30px ;
-            margin-top: -40px;
-
-           }
-           .gitlink{
-            margin-left:-1090px ;
-            position: relative;
-            top: -12px;
-           
-
-
-           }
-           .gitlink:hover{
-           background-color: black;
-           color: white;
-           font-family: 'Courier New', Courier, monospace;
-           font-weight: 500;
-           border-radius: 5px;
-
-           }
