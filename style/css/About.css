@@ -10,6 +10,14 @@ body{
     justify-content: space-between;
 }
 
+.top_header p {
+    margin-left: 60px;
+    font-size: 25px;
+    color: rgb(239, 237, 237);
+    font-weight: bolder;
+    
+}
+
 .top_header_link a {
     text-decoration: none;
     color: white;
@@ -76,5 +84,6 @@ h1{
     font-weight: 30px;
     font-size: 14px;
 }
+
 
 
