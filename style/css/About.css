@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0px;
-    background-color: rgb(15, 103, 31);
+    background-color: rgb(32, 134, 46);
 }
 
 .top_header{
@@ -32,6 +32,11 @@ body{
 h1{
     color: white;
     font-weight: 1000;
+    font-size: 40px;
+}
+.paragraph{
+    font-size: 16px;
+    color: rgb(205, 195, 195);
 }
 .fast , .Accessible , .Beautiful {
     width: 33.33%;
@@ -40,6 +45,11 @@ h1{
 
 }
 
+.About_text{
+    color: rgb(205, 195, 195);
+}
+
+
 .fast svg , .Accessible svg , .Beautiful svg {
     width: 20px;
     height: 20px;
@@ -47,10 +57,24 @@ h1{
 }
 
 .Accessible svg path , .Beautiful svg path {
-    fill: rgb(15, 103, 31);
-    stroke: white;
+    fill: rgb(32, 134, 46);
+    stroke: rgb(228, 225, 225);
     stroke-width: 3.5;
 }
 
+.fast_text p , .Accessible_text p , .Beautiful_text p  {
+    margin: 3px;
+}
+
+.individual_text{
+    color: white;
+    font-weight: 100px;
+}
+
+.individual_text2{
+    color: rgb(205, 195, 195);
+    font-weight: 30px;
+    font-size: 14px;
+}
 
 
