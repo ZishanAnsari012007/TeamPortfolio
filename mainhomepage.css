@@ -19,3 +19,63 @@ body{
     font-size: 30px;
     margin: 0px 0px 0px 5px;
 }
+.box{
+    width: 500px;
+    height: 520px;
+    background-color: rgb(0, 166, 81);
+    box-shadow: 0px 0px 20px  rgba(0, 0, 0, 0.356);
+    margin: 50px 70px 0px 0px;
+}
+.box-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -12px 0 0 8px;
+    color: aliceblue;
+    font-size: small;
+}
+.menu-btn{
+    color: aliceblue;
+    background: none;
+    margin: 15px 5px 10px 15px;
+    border: none;
+    font-size: 10px;
+    padding: 0px 0px 12px 0px;
+}
+.box-heading {
+    color: aliceblue;
+    margin: 0% 0% 0% 35%;
+    font-size: large;
+}
+.box-para{
+    color: aliceblue;
+    margin: -3% 0% 0% -15%;
+    font-size: small;
+}
+.image{
+display: grid;
+grid-template-columns: repeat(3, 150px);
+row-gap: 16px;
+padding: 40px 0px 0px 35px;
+}
+.last-line{
+    margin: 35px 0px 0px 110px;
+    color: aliceblue;
+    font-size: small;
+}
+.footer{
+    font-size: small;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px -10px 0px;
+    color: aliceblue;
+}
+.social-links {
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 15px;
+}
