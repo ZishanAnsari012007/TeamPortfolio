@@ -1,7 +1,18 @@
-.heading3 {
-  color: rgb(234, 166, 7);
+.button {
+  display: flex;
+  margin-left: 20px;
+  color: rgb(166, 22, 22);
 }
- p{ color;right: ;
+.button1 {
+  color: rgb(214, 188, 17);
+}
+.container {
+  display: flex;
+}
 
-
- }
+.container {
+  background: linear-gradient(120deg, #079b35, #004b1d);
+  color: white;
+  padding: 35px 6%;
+  min-height: 650px;
+  border-radius: 8px;
