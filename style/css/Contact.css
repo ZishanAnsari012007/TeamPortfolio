@@ -52,4 +52,38 @@ input{
 .Email , .Phone , .Location {
     display: flex;
     align-items: center;
+    gap: 30px;
 }
+
+.email_detail h4 {
+    margin-bottom: 5px;
+    color: rgb(238, 241, 244);
+    
+}
+
+.email_detail p{
+    margin-top: 5px;
+    color: rgb(227, 218, 205);
+}
+
+.phone_detail h4 {
+    margin-bottom: 5px;
+    color: rgb(238, 241, 244);
+    
+}
+
+.phone_detail p{
+    margin-top: 5px;
+     color: rgb(227, 218, 205);
+}
+.location_detail h4 {
+    margin-bottom: 5px;
+    color: rgb(238, 241, 244);
+    
+}
+
+.location_detail p{
+    margin-top: 5px;
+     color: rgb(227, 218, 205);
+}
+
