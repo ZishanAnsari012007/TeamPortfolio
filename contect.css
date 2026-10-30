@@ -106,3 +106,24 @@ height:100px;
  font-weight: 400;
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.contect_us{
+margin-top: -500px;
+margin-left: 300px;
+color:rgba(255, 255, 255, 0.726);
+font-weight: 500;
+}
+
+.main_heading{
+ margin-left: 300px;
+color: rgba(255, 255, 255, 0.726);
+font-weight: 900;
+font-size: 50px;
+
+}
+
+.main_paragraph{
+margin-left: 300px;
+color: rgba(255, 255, 255, 0.726);
+
+}
