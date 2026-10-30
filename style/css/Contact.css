@@ -32,7 +32,7 @@ h1{
 }
 
 .top_header p {
-    margin-left: 63px;
+    margin-left: 50px;
     color: white;
     font-weight: 800;
     font-size: 25px;
@@ -80,7 +80,8 @@ input{
 
 .right_portion_img img {
     width: 400px;
-    height: 400px;
+    height: 540px;
+
 }
 
 .Email , .Phone , .Location {
@@ -121,3 +122,78 @@ input{
      color: rgb(227, 218, 205);
 }
 
+
+.contact-form {
+    width: 400px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    font-family: Arial;
+}
+
+.contact-form h2 {
+    font-size: 23px;
+    color: #111;
+    margin: 0 0 22px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #d8e9e2;
+    border-radius: 9px;
+    background: #f0f8f5;
+    font-size: 14px;
+    outline: none;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+    border-color: #009b59;
+}
+
+.contact-form textarea {
+    height: 130px;
+    resize: vertical;
+}
+
+.contact-form button {
+    background: #009e5b;
+    color: white;
+    border: none;
+    padding: 16px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background: #007e49;
+}
+
+.contact-form button span {
+    margin-left: 8px;
+    font-size: 20px;
+}
+
+@media (max-width: 480px) {
+    .contact-form {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+}
