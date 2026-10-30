@@ -6,7 +6,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 .right_portion{
@@ -14,7 +14,31 @@ body{
     align-items: center;
     gap: 80px;
 }
-.form{
+.top_header_link a{
+    color: white;
+}
+
+.paragraph {
+    color: rgb(233, 232, 230);
+}
+
+h1{
+    color: white;
+    font-weight: 1000;
+    font-size: 40px;
+}
+.Contact_text{
+    color: white;
+}
+
+.top_header p {
+    margin-left: 63px;
+    color: white;
+    font-weight: 800;
+    font-size: 25px;
+
+}
+/* .form{
     gap: 30px;
     background-color: rgb(243, 237, 237);
     width: 400px;
@@ -24,8 +48,18 @@ body{
     align-items: center;
     margin-top: 20px;
 
-}
+} */
 
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(220, 41, 41);
+    width: 400px;
+    height: 400px;
+}
 .top_header{
     display: flex;
     justify-content: space-between;
