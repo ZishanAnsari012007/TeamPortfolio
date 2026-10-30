@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0px;
-    background-color: rgb(32, 134, 46);
+    background-color: #00a651;
 }
 
 .top_header{
@@ -65,7 +65,7 @@ h1{
 }
 
 .Accessible svg path , .Beautiful svg path {
-    fill: rgb(32, 134, 46);
+    fill: #00a651;
     stroke: rgb(228, 225, 225);
     stroke-width: 3.5;
 }
