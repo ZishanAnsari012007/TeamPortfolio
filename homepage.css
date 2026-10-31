@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(99, 171, 28);
+}
+.Team image {
+  display: flex;
+}
+.font {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.image {
+  display: flex;
+  beground-color: rgb(149, 12, 12);
+}
