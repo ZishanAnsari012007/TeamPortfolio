@@ -169,3 +169,26 @@ margin-top: -18px;
 color:rgba(255, 255, 255, 0.726) ; 
 font-size: 15px;
 }
+
+.location_logo{
+width: 30px;
+height: 30px;
+margin-left: 300px;
+border-radius: 20px;
+
+}
+
+.location{
+margin-left: 360px;
+margin-top: -32px;
+color:rgba(255, 255, 255, 0.726) ;
+    
+}
+
+.locations{
+margin-left: 360px;
+margin-top: -18px;
+color:rgba(255, 255, 255, 0.726) ; 
+font-size: 15px;
+
+}
