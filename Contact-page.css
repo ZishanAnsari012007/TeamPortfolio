@@ -1,0 +1,26 @@
+body{
+    background-color: #20aa5e;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: aliceblue;
+    margin: 15px 40px 0px 45px;
+}
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+}
+.header a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: medium;
+    margin: 25px;
+}
+.Contact{
+    font-weight: bold;
+    border-bottom: 2px solid aliceblue;
+    padding: 10px 5px;
+}
