@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0px;
+    background-color: rgb(32, 134, 46);
+}
+
+.top_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top_header p {
+    margin-left: 60px;
+    font-size: 25px;
+    color: rgb(239, 237, 237);
+    font-weight: bolder;
+    
+}
+
+.top_header_link a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    margin-right: 15px;
+    font-size: 14px;
+}
+.Middle_area_portion{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.left_portion_buttom{
+    display: flex;
+    justify-content: space-between;
+
+}
+h1{
+    color: white;
+    font-weight: 1000;
+    font-size: 40px;
+}
+.paragraph{
+    font-size: 16px;
+    color: rgb(205, 195, 195);
+}
+.fast , .Accessible , .Beautiful {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.About_text{
+    color: rgb(205, 195, 195);
+}
+
+
+.fast svg , .Accessible svg , .Beautiful svg {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 1px;
+}
+
+.Accessible svg path , .Beautiful svg path {
+    fill: rgb(32, 134, 46);
+    stroke: rgb(228, 225, 225);
+    stroke-width: 3.5;
+}
+
+.fast_text p , .Accessible_text p , .Beautiful_text p  {
+    margin: 3px;
+}
+
+.individual_text{
+    color: white;
+    font-weight: 100px;
+}
+
+.individual_text2{
+    color: rgb(205, 195, 195);
+    font-weight: 30px;
+    font-size: 14px;
+}
+
+
+
