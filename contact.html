@@ -5,58 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-    <div>
-        <h1>TeamApp</h1>
+    <div class="teamlink1">
         <div>
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Contact</a>
+            <h1>TeamApp</h1>
+        </div>
+        <div class="links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#" class="active">Contact</a>
         </div>
     </div>
-    <div>
+    <div class="bigbox">
         <div>
-        <p>CONTACT US</p>
-        <div>
-            <h1>let's Build <br> Something Great <br> Together.</h1>
-        <p>Have a project in mind ,a question, or just want to say hi? <br>
-            i'd love to hear from you. Drop me a message and <br>
-            I'll get back to you as soon as possible.</p>
+            <div>
+                <p>CONTACT US</p>
+                <div class="hearder">
+                    <h1>Let's Build <br> Something Great <br> Together.</h1>
+                </div>
+                <div class="paragraph">
+                    <p>Have a project in mind ,a question, or just want to say hi? <br>
+                    i'd love to hear from you. Drop me a message and <br>
+                    I'll get back to you as soon as possible.</p>
+                </div>
+            </div>
+            <div class="email">
+                <div class="emailicon">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="emailtext">
+                    <h3 class="email">Email</h3>
+                    <p>Saima@example.com</p>
+                </div>
+            </div>
+            <div class="phone">
+                <div class="phoneicon">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="phonetext">
+                    <h3 class="phone">Phone</h3>
+                    <p>+91 98765 43210</p>
+                </div>
+            </div>
+            <div class="location">
+                <div class="locationicon">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="locationtext">
+                    <h3 class="location">Location</h3>
+                    <p>Bihar, India</p>
+                </div>
+            </div>
         </div>
-    </div>
-    <div>
-        <div>
-            <i class="fa-solid fa-envelope"></i>
-            <h3 class="">Email</h3>
-            <p>Saima@example.com</p>
+        <div class="form">
+            <h2>Send me a massage</h2>
+            <div>
+                <input type="text" placeholder="Your Name*">
+            </div>
+            <div>
+                <input type="email" placeholder="Your Email*">
+            </div>
+            <div>
+            <select>
+                <option value="" disabled selected>Subject</option>
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>JavaScript</option>
+            </select>
+            </div>
+            <div>
+                <textarea placeholder="Your Message*"></textarea>
+            </div>
+            <div>
+                <button>Send Message →</button>
+            </div>
         </div>
         <div>
-            <i class="fa-solid fa-phone"></i>
-            <h3 class="">Phone</h3>
-            <p>+91 98765 43210</p>
+            <img class="image" src="https://st.hzcdn.com/simgs/8fc1fa6808d8c9a1_14-2002/_.jpg" alt="image" width="300" height="500">
         </div>
-        <i class="fa-solid fa-location-dot"></i>
-        <h3>Location</h3>
-        <p>Bihar, India</p>
-    </div>
-    <h2>Send me a massage</h2>
-    <div><input type="text" placeholder="Your Name*">
-    </div>
-    <div><input type="text" placeholder="Your Email*">
-    </div>
-    <div>
-        <input type="text" placeholder="Subject">
-    </div>
-    <div>
-        <input type="text" placeholder="Your Message*">
-    </div>
-    <div>
-        <button>Send Message →</button>
-    </div>
-    <div>
-        <img src="https://cdn.mos.cms.futurecdn.net/MexxBQpNWbvhQ9DFJAcbMU.jpg" alt="image" width="400">
-    </div>
     </div>
 </body>
 </html>
