@@ -78,3 +78,45 @@ img {
     width: 35%;
     margin : 0 ;
 }
+
+
+
+.Form-Box {
+    width: 35%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+input {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 40px;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 170px;
+    resize: none;
+}
+
+
+.Msg-button {
+    background-color: #009F50;
+    color: white;
+    font-size: 16px;
+    border : none;
+    align-self: center;
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+}
