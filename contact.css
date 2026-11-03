@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(45, 141, 77);
+    color: aliceblue;
+    margin: 0px 40px 0px 40px;
+
+}
+.teamlink1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.links a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.links .active{
+    border-bottom: 3px solid white;
+    padding-bottom: 3px;
+}
+.hearder{
+    font-size: 34px;
+    margin: -40px 0px 0px 0px;
+}
+.paragraph{
+    font-size: 20px;
+    margin: -30px 0px 0px 0px;
+}
+.form {
+    width: 340px;
+    height: 400px;
+    background-color: white;
+    padding: 20px 20px 80px 20px;
+    border-radius: 12px;
+    margin-right: -40px;
+}
+.form h2 {
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    margin-top: 5px; 
+
+}
+.form div {
+    margin-bottom: 30px;
+}
+.form input,.form select,.form textarea {
+    width: 90%;
+    padding: 13px;
+    border: 1px solid rgb(126, 200, 142);
+    border-radius: 9px;
+    background-color: rgb(228, 234, 236);
+    font-size: 14px;
+    outline: none;
+    margin-bottom: -20px;
+}
+.form select {
+    width: 98%;
+}
+.form textarea {
+    height: 100px;
+    margin-bottom: -10px;
+}
+.form button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(43, 189, 94);
+    color: white;
+    border: none;
+    border-radius: 9px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 80px;
+    height: 50px;
+}
+.bigbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.email,.phone,.location{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.emailicon,.locationicon,.phoneicon{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(176, 178, 176);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(45, 141, 77);
+}
+.emailtext h3,.phonetext h3,.locationtext h3{
+    text-decoration: none;
+    font-size: 12px;
+    margin: 0px 0 -10px 0;
+    padding: 15px 0 0px 0;
+}
+.image{
+    margin-right: 70px;
+}
