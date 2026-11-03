@@ -1,0 +1,148 @@
+html, body
+ {
+    margin: 0px;
+    padding: 0px;
+    min-height: 100%;
+
+}
+.main_container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.leftside_portion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.middle_area {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 150px;
+}
+.buttomside_area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: auto;
+}
+
+.skills_link{
+    display: flex;
+    gap: 20px;  
+}
+.top_header {
+    padding: 20px 30px;
+}
+
+/* .Main_page_button {
+    background-color: #16a34a;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+} */
+
+/* .Main_page_button:hover {
+    background-color: #15803d;
+    transform: translateX(-3px);
+}
+
+.Main_page_button:active {
+    transform: scale(0.96);
+} */
+
+
+.intro_name{
+    font-size: 70px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+h4{
+    font-size: 20px;
+}
+.details_rightside img{
+      height: 420px;
+      width: 410px;
+      border-radius: 200px;
+      margin-top: 20px;
+}
+
+button{
+    gap: 20px;
+}
+
+
+
+
+.buttom_image {
+    display: flex;
+    gap: 20px;
+    font-size: 24px;
+}
+
+.buttom_image i {
+    cursor: pointer;
+}
+.Main_page_button{
+    background-color: #16a34a;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.lets_talk_button{
+    background-color: white;
+    color: black;
+    padding: 12px 24px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: 10px;
+    width: 180px;
+    height: 55px;
+}
+
+
+.view_button {
+    background-color: rgb(6, 6, 6);
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    width: 180px;
+    height: 55px;
+}
