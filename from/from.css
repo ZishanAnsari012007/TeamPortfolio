@@ -1,0 +1,114 @@
+body{
+background-color: rgb(88, 237, 88);
+padding: 0px;
+margin: 0px;
+}
+.from_size{
+    background-color:white;
+    width: 600px;
+    height: 728px;
+    color: black;
+    margin-left: 400px;
+}
+.header1{
+  
+    background-color: rgb(130, 158, 130);
+    padding: 0px 50px 0px 20px;
+       
+   
+}
+.header2{
+    margin-left: 70px;
+}
+.input_button{
+display: flex;
+gap: 50px;
+
+
+
+}
+.input_button1{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    
+
+}
+
+.input_button1 label{
+
+  margin-bottom: 8px;
+  margin-left: 30px;
+  
+
+}
+ .input_button1 input{
+    padding: 8px;
+    width: 250px;
+    box-sizing: border-box;
+    margin-left: 30px;
+    border-radius:5px;
+    border: none;
+    background-color: rgb(133, 178, 133);
+    color: black;
+    text-decoration:none;
+}
+.dob{
+    display: flex;
+    gap: 50px;
+}
+.date_birth{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+.date_birth label{
+margin-left: 30px;
+margin-bottom: 8px;
+margin-top: 30px;
+
+}
+.date_birth input{
+    padding: 8px;
+    width: 250px;
+    margin-left: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(133, 178, 133);
+}
+.Add{
+    display: flex;
+    gap:50px;
+}
+
+.Address{
+    padding: 8px;
+    width: 250px;
+    height: 80PX;
+    box-sizing: border-box;
+    margin-left: 30px;
+    border-radius:5px;
+    border: none;
+    color: black;
+   resize: none;
+
+}
+
+ .Address label{
+    display: block;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    
+
+
+}
+
+.Address textarea{
+    width: 250px;
+    height: 50px;
+    resize: none;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: aquamarine;
+}
+
