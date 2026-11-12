@@ -1,8 +1,10 @@
 <html>
-    <head><link rel="stylesheet" href="contect.css"></head>
-    <body>
-        <h1 class="head">Bleurant</h1>
-        <div class="link4">
+    <head><link rel="stylesheet" href="./style/contect.css">
+    <script src="./script/contact.js" defer></script>
+    </head>
+    <body id="main-body">
+        <h1 class="head" id="header-title">Bleurant</h1>
+        <div class="link4" id="links">
                 <a href="/mainpage.html">Home</a>
                 <a href="./about.html">About</a>
                 <a href="./portfolio.html">Work</a>
@@ -10,14 +12,14 @@
 
             </div>
             <div>
-                <div class="inputbox">
+                <div class="inputbox" id="mainbox">
                     <h1 class="msgtxt" >Send Me a Message</h1>
                     <div>
-                        <input class="textbutton" type="password" placeholder="Your Name*">
+                        <input class="textbutton" id="user-name1" type="password" placeholder="Your Name*">
                         
                     </div>
                     <div>
-                        <input class="textbutton2" type="text" placeholder="Your Email*">
+                        <input class="textbutton2" id="user-name2" type="text" placeholder="Your Email*">
                     </div>
                     <div>
                        <select class="select_button" name="Subject" id="Subject" >
@@ -28,16 +30,16 @@
                        </select>
                     </div>
                     <div>
-                        <textarea class="your_message" name="Your Message" id="Your Message" placeholder="Your Message"></textarea>
+                        <textarea class="your_message" name="Your Message" id="Your-Message" placeholder="Your Message"></textarea>
                     </div>
                     <div>
-                        <button class="message_send">Send Message</button>
+                        <button class="message_send" id="submit" onclick="changeBodyBackground()">Send Message</button>
                     </div>
                 </div>
                 <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4k6ehcSRT6FxbL4ZxaM85PCROEiZeCmeHk7qU6alQdvPPKaozI4eb_hQ&s=10" alt="">
                 <div>
                     <h4 class="contect_us">CONTECT US</h4>
-                    <h1 class="main_heading">Let's Built <br>Somthing Great <br>Togather</h1>
+                    <h1 class="main_heading" id="maintitle">Let's Built <br>Somthing Great <br>Togather</h1>
                     <p class="main_paragraph">Have a Porject in Mind  a question or just want to say hi <br>i'd love to hear form you.drop me message and <br> i,ll get back to you as soon as possible</p>
                 </div>
                 <div>
