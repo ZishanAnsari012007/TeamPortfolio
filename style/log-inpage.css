@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(37, 156, 111);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainDiv{
+    font-family: Arial, sans-serif;
+    width: 390px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    margin: 46px auto;
+    padding: 10px;
+}
+.login{
+    margin: 28px 150px;
+    
+}
+.form{
+    margin: 20px 20px;
+}
+.input{
+    padding: 12px;
+    width: 345px;
+    height: 50px;
+    margin-bottom: 22px ;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(226, 226, 226);
+}
+.link{
+    text-decoration: none;
+    color: rgb(14, 129, 85);
+}
+.loginBtn{
+    background-color: rgb(37, 156, 111);
+    color: rgb(255, 255, 255);
+    width: 345px;
+    height: 50px;
+    margin: 25px auto ;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: larger;
+}
+p{
+    margin: -20px 75px;
+}
